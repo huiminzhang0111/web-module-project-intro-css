@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Uchen&display=swap');
+
+
+*{
+  font-size:62.5%;
+  font-family:Roboto Mono, monospace;
+  max-width:100%;
+  }
+.container header, footer {
+  font-family:Chelsea Market, cursive;
+  }
+.container nav {
+  display:block;
+  text-align: center;
+  width:100%;
+  }
+#f1, #f2, #f3 {
+  font-size:13px;
+  line-height: 1.5em;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  margin-right:30px;
+  margin-left:30px;
+
+  }
+#f1 {
+  background-color: #FF764E;
+  }
+#f2 {
+  background-color: #5ED3EB;
+  }
+#f3 {
+  background-color: #FFCD69;
+  }
+  
+header {
+  width:80%;
+  display:flex;
+  text-align:center;
+  margin:0 auto;
+}
+header div{
+  margin:20px;
+}
+.topimg img{
+  margin:10px;
+  padding:10px;
+  border-radius:50%;
+}
+header h1{
+  font-size:30px;
+  margin-left:50px;
+}
+
+#sentence{
+  width:70%;
+  margin:0 auto;
+  padding-left:30px;
+  font-size:15px;
+}
+  
+  .description {
+    display: block;
+    background-color: #DDB9A3;
+    text-align: center;
+    color: white;
+    margin: 0 20px;
+  }
+  
+  .description p {
+    font-size:13px;
+    margin: 5px 5px;
+    padding:5px 5px;
+  }
+  
+.guide {
+  margin: 10px auto;
+  text-align: center;
+  font-size: 10px;
+  width: 30%;
+  padding: 10px;
+}
+.text1, .text2 {
+  width:30%;
+  margin:0 auto;
+  text-align:center;
+}
+.guide img {
+  width: 80px;
+  height: 80px;
+}
+  
+footer{
+  background-color:#F9E7DC;
+  text-align:center;
+  padding-bottom:30px;
+  }
+.footerimg{
+  margin-top:30px;
+}
+.footerimg img{
+  object-fit:cover;
+  width:1000px;
+  height:150px;
+} 
